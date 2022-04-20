@@ -15,6 +15,7 @@ class App extends Component {
   }
   getValue = (event) => {
     this.setState(  { [event.target.name]: event.target.value }  )
+    console.log(event.target);
   }
   showValue = (event) => {
         event.preventDefault();
